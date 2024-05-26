@@ -15,7 +15,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <p>
-          // {i18n(cfg.locale).components.footer.createdWith}{" "}
+          {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="/">Vademecum</a> © {year}
         </p>
         <ul>
